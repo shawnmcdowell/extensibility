@@ -24,7 +24,7 @@ namespace DdpiVstoAddinExcel
 
         public bool ShowFormAsModal
         {
-            get => chkShowFormModal.Checked;
+            get { return chkShowFormModal.Checked; }
         }
 
         private void RefreshDpiAwareness()
